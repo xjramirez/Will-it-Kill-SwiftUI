@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB6269AA2ADB83A100843BC9 /* Will_It_KillApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6269A92ADB83A100843BC9 /* Will_It_KillApp.swift */; };
+		BB6269AC2ADB83A100843BC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6269AB2ADB83A100843BC9 /* ContentView.swift */; };
+		BB6269AE2ADB83A200843BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6269AD2ADB83A200843BC9 /* Assets.xcassets */; };
+		BB6269B12ADB83A200843BC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6269B02ADB83A200843BC9 /* Preview Assets.xcassets */; };
+		BB6269BC2ADB83A200843BC9 /* Will_It_KillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6269BB2ADB83A200843BC9 /* Will_It_KillTests.swift */; };
+		BB6269C62ADB83A200843BC9 /* Will_It_KillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6269C52ADB83A200843BC9 /* Will_It_KillUITests.swift */; };
+		BB6269C82ADB83A200843BC9 /* Will_It_KillUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6269C72ADB83A200843BC9 /* Will_It_KillUITestsLaunchTests.swift */; };
+		BB6269D62ADB840100843BC9 /* PresentationKit in Frameworks */ = {isa = PBXBuildFile; productRef = BB6269D52ADB840100843BC9 /* PresentationKit */; };
+		BB6269D92ADB8B6C00843BC9 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6269D82ADB8B6C00843BC9 /* Videos.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB6269B82ADB83A200843BC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB62699E2ADB83A100843BC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6269A52ADB83A100843BC9;
+			remoteInfo = "Will It Kill";
+		};
+		BB6269C22ADB83A200843BC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB62699E2ADB83A100843BC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6269A52ADB83A100843BC9;
+			remoteInfo = "Will It Kill";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB6269A62ADB83A100843BC9 /* Will It Kill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Will It Kill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6269A92ADB83A100843BC9 /* Will_It_KillApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Will_It_KillApp.swift; sourceTree = "<group>"; };
+		BB6269AB2ADB83A100843BC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB6269AD2ADB83A200843BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB6269B02ADB83A200843BC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB6269B22ADB83A200843BC9 /* Will_It_Kill.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Will_It_Kill.entitlements; sourceTree = "<group>"; };
+		BB6269B72ADB83A200843BC9 /* Will It KillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Will It KillTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6269BB2ADB83A200843BC9 /* Will_It_KillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Will_It_KillTests.swift; sourceTree = "<group>"; };
+		BB6269C12ADB83A200843BC9 /* Will It KillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Will It KillUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6269C52ADB83A200843BC9 /* Will_It_KillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Will_It_KillUITests.swift; sourceTree = "<group>"; };
+		BB6269C72ADB83A200843BC9 /* Will_It_KillUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Will_It_KillUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB6269D82ADB8B6C00843BC9 /* Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB6269A32ADB83A100843BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6269D62ADB840100843BC9 /* PresentationKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6269B42ADB83A200843BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6269BE2ADB83A200843BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB62699D2ADB83A100843BC9 = {
+			isa = PBXGroup;
+			children = (
+				BB6269A82ADB83A100843BC9 /* Will It Kill */,
+				BB6269BA2ADB83A200843BC9 /* Will It KillTests */,
+				BB6269C42ADB83A200843BC9 /* Will It KillUITests */,
+				BB6269A72ADB83A100843BC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB6269A72ADB83A100843BC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB6269A62ADB83A100843BC9 /* Will It Kill.app */,
+				BB6269B72ADB83A200843BC9 /* Will It KillTests.xctest */,
+				BB6269C12ADB83A200843BC9 /* Will It KillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB6269A82ADB83A100843BC9 /* Will It Kill */ = {
+			isa = PBXGroup;
+			children = (
+				BB6269A92ADB83A100843BC9 /* Will_It_KillApp.swift */,
+				BB6269AB2ADB83A100843BC9 /* ContentView.swift */,
+				BB6269D72ADB8B4300843BC9 /* Slides */,
+				BB6269AD2ADB83A200843BC9 /* Assets.xcassets */,
+				BB6269B22ADB83A200843BC9 /* Will_It_Kill.entitlements */,
+				BB6269AF2ADB83A200843BC9 /* Preview Content */,
+			);
+			path = "Will It Kill";
+			sourceTree = "<group>";
+		};
+		BB6269AF2ADB83A200843BC9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB6269B02ADB83A200843BC9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB6269BA2ADB83A200843BC9 /* Will It KillTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB6269BB2ADB83A200843BC9 /* Will_It_KillTests.swift */,
+			);
+			path = "Will It KillTests";
+			sourceTree = "<group>";
+		};
+		BB6269C42ADB83A200843BC9 /* Will It KillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB6269C52ADB83A200843BC9 /* Will_It_KillUITests.swift */,
+				BB6269C72ADB83A200843BC9 /* Will_It_KillUITestsLaunchTests.swift */,
+			);
+			path = "Will It KillUITests";
+			sourceTree = "<group>";
+		};
+		BB6269D72ADB8B4300843BC9 /* Slides */ = {
+			isa = PBXGroup;
+			children = (
+				BB6269D82ADB8B6C00843BC9 /* Videos.swift */,
+			);
+			path = Slides;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB6269A52ADB83A100843BC9 /* Will It Kill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6269CB2ADB83A200843BC9 /* Build configuration list for PBXNativeTarget "Will It Kill" */;
+			buildPhases = (
+				BB6269A22ADB83A100843BC9 /* Sources */,
+				BB6269A32ADB83A100843BC9 /* Frameworks */,
+				BB6269A42ADB83A100843BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Will It Kill";
+			packageProductDependencies = (
+				BB6269D52ADB840100843BC9 /* PresentationKit */,
+			);
+			productName = "Will It Kill";
+			productReference = BB6269A62ADB83A100843BC9 /* Will It Kill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB6269B62ADB83A200843BC9 /* Will It KillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6269CE2ADB83A200843BC9 /* Build configuration list for PBXNativeTarget "Will It KillTests" */;
+			buildPhases = (
+				BB6269B32ADB83A200843BC9 /* Sources */,
+				BB6269B42ADB83A200843BC9 /* Frameworks */,
+				BB6269B52ADB83A200843BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6269B92ADB83A200843BC9 /* PBXTargetDependency */,
+			);
+			name = "Will It KillTests";
+			productName = "Will It KillTests";
+			productReference = BB6269B72ADB83A200843BC9 /* Will It KillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB6269C02ADB83A200843BC9 /* Will It KillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6269D12ADB83A200843BC9 /* Build configuration list for PBXNativeTarget "Will It KillUITests" */;
+			buildPhases = (
+				BB6269BD2ADB83A200843BC9 /* Sources */,
+				BB6269BE2ADB83A200843BC9 /* Frameworks */,
+				BB6269BF2ADB83A200843BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6269C32ADB83A200843BC9 /* PBXTargetDependency */,
+			);
+			name = "Will It KillUITests";
+			productName = "Will It KillUITests";
+			productReference = BB6269C12ADB83A200843BC9 /* Will It KillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB62699E2ADB83A100843BC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BB6269A52ADB83A100843BC9 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					BB6269B62ADB83A200843BC9 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BB6269A52ADB83A100843BC9;
+					};
+					BB6269C02ADB83A200843BC9 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BB6269A52ADB83A100843BC9;
+					};
+				};
+			};
+			buildConfigurationList = BB6269A12ADB83A100843BC9 /* Build configuration list for PBXProject "Will It Kill" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB62699D2ADB83A100843BC9;
+			packageReferences = (
+				BB6269D42ADB840100843BC9 /* XCRemoteSwiftPackageReference "presentationkit" */,
+			);
+			productRefGroup = BB6269A72ADB83A100843BC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6269A52ADB83A100843BC9 /* Will It Kill */,
+				BB6269B62ADB83A200843BC9 /* Will It KillTests */,
+				BB6269C02ADB83A200843BC9 /* Will It KillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB6269A42ADB83A100843BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6269B12ADB83A200843BC9 /* Preview Assets.xcassets in Resources */,
+				BB6269AE2ADB83A200843BC9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6269B52ADB83A200843BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6269BF2ADB83A200843BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB6269A22ADB83A100843BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6269AC2ADB83A100843BC9 /* ContentView.swift in Sources */,
+				BB6269D92ADB8B6C00843BC9 /* Videos.swift in Sources */,
+				BB6269AA2ADB83A100843BC9 /* Will_It_KillApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6269B32ADB83A200843BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6269BC2ADB83A200843BC9 /* Will_It_KillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6269BD2ADB83A200843BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6269C62ADB83A200843BC9 /* Will_It_KillUITests.swift in Sources */,
+				BB6269C82ADB83A200843BC9 /* Will_It_KillUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB6269B92ADB83A200843BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6269A52ADB83A100843BC9 /* Will It Kill */;
+			targetProxy = BB6269B82ADB83A200843BC9 /* PBXContainerItemProxy */;
+		};
+		BB6269C32ADB83A200843BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6269A52ADB83A100843BC9 /* Will It Kill */;
+			targetProxy = BB6269C22ADB83A200843BC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB6269C92ADB83A200843BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB6269CA2ADB83A200843BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BB6269CC2ADB83A200843BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Will It Kill/Will_It_Kill.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Will It Kill/Preview Content\"";
+				DEVELOPMENT_TEAM = 7WL3QG5FXZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xavier.Will-It-Kill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BB6269CD2ADB83A200843BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Will It Kill/Will_It_Kill.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Will It Kill/Preview Content\"";
+				DEVELOPMENT_TEAM = 7WL3QG5FXZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xavier.Will-It-Kill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BB6269CF2ADB83A200843BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WL3QG5FXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xavier.Will-It-KillTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Will It Kill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Will It Kill";
+			};
+			name = Debug;
+		};
+		BB6269D02ADB83A200843BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WL3QG5FXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xavier.Will-It-KillTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Will It Kill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Will It Kill";
+			};
+			name = Release;
+		};
+		BB6269D22ADB83A200843BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WL3QG5FXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xavier.Will-It-KillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Will It Kill";
+			};
+			name = Debug;
+		};
+		BB6269D32ADB83A200843BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WL3QG5FXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xavier.Will-It-KillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Will It Kill";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB6269A12ADB83A100843BC9 /* Build configuration list for PBXProject "Will It Kill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6269C92ADB83A200843BC9 /* Debug */,
+				BB6269CA2ADB83A200843BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6269CB2ADB83A200843BC9 /* Build configuration list for PBXNativeTarget "Will It Kill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6269CC2ADB83A200843BC9 /* Debug */,
+				BB6269CD2ADB83A200843BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6269CE2ADB83A200843BC9 /* Build configuration list for PBXNativeTarget "Will It KillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6269CF2ADB83A200843BC9 /* Debug */,
+				BB6269D02ADB83A200843BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6269D12ADB83A200843BC9 /* Build configuration list for PBXNativeTarget "Will It KillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6269D22ADB83A200843BC9 /* Debug */,
+				BB6269D32ADB83A200843BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB6269D42ADB840100843BC9 /* XCRemoteSwiftPackageReference "presentationkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adinack/presentationkit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB6269D52ADB840100843BC9 /* PresentationKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB6269D42ADB840100843BC9 /* XCRemoteSwiftPackageReference "presentationkit" */;
+			productName = PresentationKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BB62699E2ADB83A100843BC9 /* Project object */;
+}

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "presentationkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adinack/presentationkit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f73c7876dfee21be617961c9f088ccc071d0d8bb"
+      }
+    }
+  ],
+  "version" : 2
+}
