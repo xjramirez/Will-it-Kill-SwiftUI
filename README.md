@@ -4,7 +4,7 @@
 ### Attributions
 AdinAck's PresentationKit for SwiftUI: [https://github.com/AdinAck/PresentationKit](https://github.com/AdinAck/PresentationKit). Very useful framework to create simple and elegant presentations.  
 
-Sajam: [https://www.youtube.com/@SupermanSajam](https://www.youtube.com/@SupermanSajam). Inspiration behind the project idea.
+Sajam: [https://www.youtube.com/@SupermanSajam](https://www.youtube.com/@SupermanSajam). Inspiration behind the project idea. Most (if not all) clips were taken from his series.
 
 ### Context for the Project
 This project was made for Triton Fighters' booth at Triton Gaming's 2023 Division Showcase at UCSD. A presenter asks the guests for a game category, then begins begins playing the randomly selected clip from the game they selected. Once the clip pauses, the presenter asks the guests whether or not they think the combo will kill (and does some crowd-work). Then, once all the guests have decided, the presenter restarts the clip, and the crowd gets to watch the combo through to completion. The presenter gave their event punch card a stamp if they guessed the outcome of the clip correctly, then repeated the process for the next group of guests.  
